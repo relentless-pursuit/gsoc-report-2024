@@ -8,7 +8,6 @@
 
 ## **Mentor**: [Roman Ivanov](https://github.com/romani)
 
----
 ### Project Goals
 
 The goal of my Google Summer of Code project was to modernize Checkstyle's regression-testing and reporting capabilities by creating and improving several key components:
