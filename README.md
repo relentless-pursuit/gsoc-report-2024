@@ -1,6 +1,6 @@
 # Google Summer of Code 2024 Final Report
 
-## **Project: [Automated Regression Testing Tool for Checkstyle](https://github.com/checkstyle/checkstyle/wiki/Checkstyle-GSoC-2024-Project-Ideas#project-name-internal-tooling-for-regression-testing)
+## **Project**: [Automated Regression Testing Tool for Checkstyle](https://github.com/checkstyle/checkstyle/wiki/Checkstyle-GSoC-2024-Project-Ideas#project-name-internal-tooling-for-regression-testing)
 
 ## **Student**: [Piyush Kumar Sadangi](https://github.com/relentless-pursuit)**
 
