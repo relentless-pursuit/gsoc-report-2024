@@ -1,13 +1,16 @@
 ---
-# Google Summer of Code 2024 Final Report
+title: "Google Summer of Code 2024 Final Report"
+---
 
-## **Project**: [Automated Regression Testing Tool for Checkstyle](https://github.com/checkstyle/checkstyle/wiki/Checkstyle-GSoC-2024-Project-Ideas#project-name-internal-tooling-for-regression-testing)
+## **Google Summer of Code 2024 Final Report**
 
-## **Student**: [Piyush Kumar Sadangi](https://github.com/relentless-pursuit)
+## **Project: [Automated Regression Testing Tool for Checkstyle](https://github.com/checkstyle/checkstyle/wiki/Checkstyle-GSoC-2024-Project-Ideas#project-name-internal-tooling-for-regression-testing)**
 
-## **Organisation**: [Checkstyle](https://github.com/checkstyle)
+## **Student: [Piyush Kumar Sadangi](https://github.com/relentless-pursuit)**
 
-## **Mentor**: [Roman Ivanov](https://github.com/romani)
+## **Organisation: [Checkstyle](https://github.com/checkstyle)**
+
+## **Mentor: [Roman Ivanov](https://github.com/romani)**
 
 ---
 
