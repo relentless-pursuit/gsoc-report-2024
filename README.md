@@ -1,15 +1,29 @@
-**Google Summer of Code 2024 Final Report**  
-**Project: Automated Regression Testing Tool for Checkstyle**  
-**Student: Piyush Kumar Sadangi**  
-**Organisation: Checkstyle**  
-**Mentors: Roman Ivanov**
+## **Google Summer of Code 2024 Final Report**  
+---
+
+## **Project: [Automated Regression Testing Tool for Checkstyle](https://github.com/checkstyle/checkstyle/wiki/Checkstyle-GSoC-2024-Project-Ideas#project-name-internal-tooling-for-regression-testing)**  
+## **Student: [Piyush Kumar Sadangi](https://github.com/relentless-pursuit)**  
+## **Organisation: [Checkstyle](https://github.com/checkstyle)**  
+## **Mentors: [Roman Ivanov](https://github.com/romani)**  
+
+---
 
 ### Project Goals
 
-The goal of my Google Summer of Code project was to modernize Checkstyle's regression-testing and reporting capabilities by creating two major components:
-1. **Extractor Application** – a Gradle-based tool for extracting Checkstyle module configurations and documentation, facilitating the generation of example inputs and configuration files for various checks.
-2. **DiffTool.java** – a fully rewritten Java tool that replaces the older `diff.groovy`, providing improved automation and better predicitibility while moving away from scripting languages like groovy.
-3. **Workflows** - a new workflow for the Checkstyle (`regression-report.yml`) which automates the generation of regression reports, adding new functionalities to it to make it user friendly.
+The goal of my Google Summer of Code project was to modernize Checkstyle's regression-testing and reporting capabilities by creating and improving several key components:
+
+1. **Extractor Application** – a Gradle-based tool for extracting Checkstyle module configurations and documentation, facilitating the generation of configuration files for various checks.
+   
+2. **DiffTool.java** – a fully rewritten Java tool that replaces the older `diff.groovy`, providing improved maintainability and better predictability, while moving away from scripting languages like Groovy.
+
+3. **Workflows** – a new GitHub Actions workflow (`regression-report.yml`) for Checkstyle, which automates the generation of regression reports, adding user-friendly functionalities and improving ease of use.
+
+4. **CI/CD Pipelines** – Implemented CI/CD pipelines for the newly created `checkstyle/test-configs` repository, ensuring automated builds, testing, and report generation for continuous integration and delivery.
+
+5. **Code Quality Enforcement** – Ensured adherence to basic code standards provided by tools like PMD, Checkstyle, and SpotBugs, enforcing best practices and maintaining code quality across all developed components.
+
+
+---
 
 ### What I Did During GSoC
 
@@ -28,15 +42,17 @@ The goal of my Google Summer of Code project was to modernize Checkstyle's regre
 4. **Code Contributions to Checkstyle**:
    - Contributed several updates to the Checkstyle repositories (`checkstyle/test-config` and `checkstyle/checkstyle`) to align with these new tools and improve overall functionality.
 
+---
+
 ### Code Contributions
 
 Below is a summary of the contributions I made as part of my Google Summer of Code project with Checkstyle:
 
 - **All Pull Requests (PRs) related to the `checkstyle/test-config`** can be found [here](https://github.com/checkstyle/test-configs/pulls?q=is%3Apr+is%3Amerged+author%3Arelentless-pursuit+created%3A%3E%3D2024-05-01+merged%3A%3C%3D2024-10-16).
 - **All Pull Requests (PRs) related to the `checkstyle/checkstyle`** can be found [here](https://github.com/checkstyle/checkstyle/pulls?q=is%3Apr+is%3Amerged+author%3Arelentless-pursuit+created%3A%3E%3D2024-05-01+merged%3A%3C%3D2024-10-16).
-- **All Issues created under `checkstyle/test-config` associated with the project** are tracked on the **[GitHub project board](https://github.com/orgs/checkstyle/projects/8)**.
+- **All Issues associated with the project** are tracked on the **[GitHub project board](https://github.com/orgs/checkstyle/projects/8)**.
 
-These contributions include updates to existing Checkstyle modules, new features, improvements to testing infrastructure, and overall enhancements to the regression testing process.
+---
 
 ### Skills Acquired
 
@@ -45,15 +61,16 @@ During the project, I gained several technical skills:
 - **GitHub Actions**: Implemented and optimized CI/CD workflows for testing and regression reporting.
 - **Code Quality Tools**: Worked extensively with tools like Checkstyle, PMD, and SpotBugs, learning how they enforce coding standards, prevent bugs, and ensure code consistency
   
-In addition, I improved my **project management**, **communication**, and **problem-solving** skills through collaboration with my mentors and the Checkstyle community.
+---
 
 ### Current Status and Future Work
 
-The project is complete, with the tools in a stable state, integrated into Checkstyle’s workflow. The next steps include:
-- Further optimizing the Checkstyle Extractor and adding more language features as Java evolves.
-- Refining `DiffTool.java` to support new use cases and improve performance.
+The project is almost complete, with the tools in a stable state, integrated into Checkstyle’s workflow. The next steps include:
+- Addressing regression-testing failure of some checks
+- Integrating projects.yml feature into regression-report.yml
+- Improving code quality to the highest standards, the final polishing of DiffTool and Extractor.
 
-### What I Learned
+---
 
 ### What I Learned
 
@@ -72,6 +89,8 @@ Throughout GSoC, I gained a deeper understanding of several key aspects of softw
 6. **Optimizing GitHub Actions for Large-Scale Testing**: As part of my work on the GitHub Actions workflow (`regression-report.yml`), I gained experience in optimizing CI workflows for large-scale testing scenarios. This included configuring caching mechanisms to speed up builds, integrating AWS S3 for storing large test reports, and handling edge cases that might occur during regression tests.
 
 These experiences gave me a comprehensive understanding of building, testing, and maintaining high-quality software, preparing me for future endeavors in both open-source and professional projects.
+
+---
 
 ### Acknowledgments
 
